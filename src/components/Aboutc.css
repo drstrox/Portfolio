@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    flex-direction: row; 
+    gap:50px;
+}
+
+.webp{
+    width: 120px;
+    background-color: #563d3d;
+    border-radius: 15px;
+    padding: 20px;
+    
+    transition: transform 0.3s ease;
+}
+
+.blockchain{
+    width: 120px;
+    background-color: #563d3d;
+    border-radius: 15px;
+    padding: 20px;
+  
+    transition: transform 0.3s ease;
+}
+
+.finance{
+    width: 120px;
+    background-color: #563d3d;
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+
+}
