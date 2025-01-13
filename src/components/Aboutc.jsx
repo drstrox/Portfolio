@@ -8,6 +8,7 @@ import ZombImage from "../assets/comp/Zomb.jpg";
 import ERImage from "../assets/comp/erc20.jpg";
 import ERCImage from "../assets/comp/ERC721.jpg";
 import BankImage from "../assets/comp/Bank.png";
+import TweetImage from "../assets/comp/Tweet.png";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import './Aboutc.css';
@@ -606,7 +607,7 @@ const Aboutc = () => {
               <CategoryTitle>Blockchain</CategoryTitle>
               <SkillsList>
                 <SkillItem>Smart Contracts & Solidity</SkillItem>
-                <SkillItem>Foundry & Hardhat Frameworks</SkillItem>
+                <SkillItem>Foundry & Hardhat Framework</SkillItem>
                 <SkillItem>DeFi Protocols</SkillItem>
                 <SkillItem>NFT Development</SkillItem>
               </SkillsList>
@@ -725,6 +726,13 @@ const Aboutc = () => {
               </ProjectContent>
             </ProjectCard>
             
+            <ProjectCard>
+              <ProjectImage src={TweetImage} alt="Netflix" />
+              <ProjectContent>
+                <ProjectTitle>Tweet Generator</ProjectTitle>
+                <ProjectDescription>An AI chatbot that generates engaging Tweets from images, text, etc, using advanced NLP and computer vision to create shareable social media content effortlessly.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
             <ProjectCard>
               <ProjectImage src={NetImage} alt="Netflix" />
               <ProjectContent>
