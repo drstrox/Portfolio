@@ -8,6 +8,11 @@ import ZombImage from "../assets/comp/Zomb.jpg";
 import ERImage from "../assets/comp/erc20.jpg";
 import ERCImage from "../assets/comp/ERC721.jpg";
 import BankImage from "../assets/comp/Bank.png";
+import CalImage from '../assets/comp/Calender.png';
+import PepImage from '../assets/comp/Peptabase.png';
+import GameImage from '../assets/comp/Gaming.png';
+import RICImage from '../assets/comp/RIC.png';
+import DashImage from '../assets/comp/Dash.png';
 import TweetImage from "../assets/comp/Tweet.png";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
@@ -711,7 +716,7 @@ const Aboutc = () => {
         <SectionTitle>My Projects</SectionTitle>
         <ProjectsContainer>
           <ProjectsGrid>
-          <ProjectCard>
+            <ProjectCard>
               <ProjectImage src={IITISoCImage} alt="Vertex" />
               <ProjectContent>
                 <ProjectTitle>Trading Web Platform</ProjectTitle>
@@ -725,7 +730,7 @@ const Aboutc = () => {
                 <ProjectDescription>Full stack Bank website for efficient management of customer data, account transactions, database integration financial operations and secure authentication</ProjectDescription>
               </ProjectContent>
             </ProjectCard>
-            
+
             <ProjectCard>
               <ProjectImage src={TweetImage} alt="Netflix" />
               <ProjectContent>
@@ -733,6 +738,39 @@ const Aboutc = () => {
                 <ProjectDescription>An AI chatbot that generates engaging Tweets from images, text, etc, using advanced NLP and computer vision to create shareable social media content effortlessly.</ProjectDescription>
               </ProjectContent>
             </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={ERImage} alt="ERC20" />
+              <ProjectContent>
+                <ProjectTitle>Cryptocurrency Generator</ProjectTitle>
+                <ProjectDescription>The ERC20 token project involves creating a custom cryptocurrency on the Ethereum blockchain, adhering to the ERC20 standard for token transactions and smart contract integration.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={PepImage} alt="Peptabase" />
+              <ProjectContent>
+                <ProjectTitle>Peptabase Database</ProjectTitle>
+                <ProjectDescription>A Rust based web platform for a database project that works on vast collection of aptamers, categorized and searchable by type, function, and application for more accurate research insights.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={GameImage} alt="Game" />
+              <ProjectContent>
+                <ProjectTitle>Gaming Club Website</ProjectTitle>
+                <ProjectDescription>The official club website of Gaming Club, IIT Indore: the hub of gaming and game development activities of IIT Indore, made on Express.js.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={RICImage} alt="RIC" />
+              <ProjectContent>
+                <ProjectTitle>RIC-25 Website</ProjectTitle>
+                <ProjectDescription>The official website of Research And Industrial conclave, IIT Indore made using Vite.js and Spline tools.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
             <ProjectCard>
               <ProjectImage src={NetImage} alt="Netflix" />
               <ProjectContent>
@@ -741,31 +779,33 @@ const Aboutc = () => {
               </ProjectContent>
             </ProjectCard>
             <ProjectCard>
-              <ProjectImage src={LotImage} alt="Space Themed Website" />
-              <ProjectContent>
-                <ProjectTitle>Decentralised Lottery</ProjectTitle>
-                <ProjectDescription>A decentralized lottery system in Solidity using Remix IDE allows participants to enter with Ether, randomly selects a winner using a secure algorithm, and automatically transfers the prize to the winner's address.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
-            <ProjectCard>
-              <ProjectImage src={ZombImage} alt="Zombies" />
-              <ProjectContent>
-                <ProjectTitle>Cryptozombies Generator</ProjectTitle>
-                <ProjectDescription>The Cryptozombies generator generates personalized zombie characters for blockchain-based games using solidity where a 16-digit unique code.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
-            <ProjectCard>
-              <ProjectImage src={ERImage} alt="ERC20" />
-              <ProjectContent>
-                <ProjectTitle>Cryptocurrency Generator</ProjectTitle>
-                <ProjectDescription>The ERC20 token project involves creating a custom cryptocurrency on the Ethereum blockchain, adhering to the ERC20 standard for token transactions and smart contract integration.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
-            <ProjectCard>
               <ProjectImage src={ERCImage} alt="ERC721" />
               <ProjectContent>
                 <ProjectTitle>NFT Generator</ProjectTitle>
                 <ProjectDescription>A unique non-fungible token (NFT) creator on the Ethereum blockchain, following the ERC721 standard for ownership, transfer, and metadata integration.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={DashImage} alt="Dashboard" />
+              <ProjectContent>
+                <ProjectTitle>Dynamic DashBoard Application</ProjectTitle>
+                <ProjectDescription>A dynamic dashboard using React.js, Redux, TypeScript, Redux Thunk, and Recharts, featuring user management, analytics with charts, API integration, responsive design, and interactive visualizations for insightful data representation.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectImage src={CalImage} alt="Calendar" />
+              <ProjectContent>
+                <ProjectTitle>Dynamic Calendar App</ProjectTitle>
+                <ProjectDescription>A dynamic event calendar built with Vite, Shadcn UI, and Day.js offering customizable scheduling, event management, reminder, etc, designed for intuitive user experience.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+            <ProjectCard>
+              <ProjectImage src={LotImage} alt="Space Themed Website" />
+              <ProjectContent>
+                <ProjectTitle>Decentralised Lottery</ProjectTitle>
+                <ProjectDescription>A decentralized lottery system in Solidity using Remix IDE allows participants to enter with Ether, randomly selects a winner using a secure algorithm, and automatically transfers the prize to the winner's address.</ProjectDescription>
               </ProjectContent>
             </ProjectCard>
           </ProjectsGrid>
