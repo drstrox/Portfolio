@@ -665,7 +665,8 @@ const Aboutc = () => {
               <ExperienceCompany>Under Prof. Amit Kumar, IIT Indore</ExperienceCompany>
               <ExperienceDate>Nov. - Dec. 2024</ExperienceDate>
               <ExperienceDescription>
-                Leading web development projects and mentoring junior developers in modern web technologies.
+                Developed the Web platform for a database project working on vast collection of aptamers, categorized and
+                searchable by type, function, and application criteria for faster, more accurate research insights.
               </ExperienceDescription>
             </TimelineContent>
           </TimelineItem>
@@ -676,7 +677,7 @@ const Aboutc = () => {
               <ExperienceCompany>Sankalp Technologies</ExperienceCompany>
               <ExperienceDate>Aug. - Sept. 2024</ExperienceDate>
               <ExperienceDescription>
-                Created multiple smart contracts and decentralized applications using Solidity and Web3 technologies.
+                Worked on Frameworks like Vite.js, React.js and Advanced Javascript.
               </ExperienceDescription>
             </TimelineContent>
           </TimelineItem>
@@ -687,7 +688,8 @@ const Aboutc = () => {
               <ExperienceCompany>IITISoC</ExperienceCompany>
               <ExperienceDate>June - Aug. 2024</ExperienceDate>
               <ExperienceDescription>
-                Developed innovative solutions and received recognition for outstanding technical contributions.
+                Built a trading Web Platform enabling users to trade stocks with virtual money, manage portfolios, analyze advanced charts, test strategies, and
+                maximize profits.
               </ExperienceDescription>
             </TimelineContent>
           </TimelineItem>
