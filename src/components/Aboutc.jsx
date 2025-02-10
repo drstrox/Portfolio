@@ -2,17 +2,15 @@ import React, { Suspense } from "react";
 import styled from "styled-components";
 import abbImage from "../assets/abb.png";
 import IITISoCImage from "../assets/IITISoC.png";
-import NetImage from "../assets/comp/Netflix.png";
 import LotImage from "../assets/comp/Lottery.jpg";
 import ZombImage from "../assets/comp/Zomb.jpg";
 import ERImage from "../assets/comp/erc20.jpg";
 import ERCImage from "../assets/comp/ERC721.jpg";
 import BankImage from "../assets/comp/Bank.png";
-import CalImage from '../assets/comp/Calender.png';
 import PepImage from '../assets/comp/Peptabase.png';
 import GameImage from '../assets/comp/Gaming.png';
 import RICImage from '../assets/comp/RIC.png';
-import DashImage from '../assets/comp/Dash.png';
+import IntentImage from '../assets/comp/Stratos.png';
 import TweetImage from "../assets/comp/Tweet.png";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
@@ -734,6 +732,14 @@ const Aboutc = () => {
             </ProjectCard>
 
             <ProjectCard>
+              <ProjectImage src={IntentImage} alt="IntentAI" />
+              <ProjectContent>
+                <ProjectTitle>𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐈𝐧𝐭𝐞𝐧𝐭 𝐄𝐧𝐠𝐢𝐧𝐞</ProjectTitle>
+                <ProjectDescription>An AI chatbot through which users can seamlessly swap tokens, borrow/lend, and execute complex crypto trades ensuring fast, efficient, and cost-effective transactions across the DeFi ecosystem.</ProjectDescription>
+              </ProjectContent>
+            </ProjectCard>
+
+            <ProjectCard>
               <ProjectImage src={TweetImage} alt="Netflix" />
               <ProjectContent>
                 <ProjectTitle>Tweet Generator</ProjectTitle>
@@ -774,13 +780,6 @@ const Aboutc = () => {
             </ProjectCard>
 
             <ProjectCard>
-              <ProjectImage src={NetImage} alt="Netflix" />
-              <ProjectContent>
-                <ProjectTitle>Netflix Clone</ProjectTitle>
-                <ProjectDescription>Stream your favorite shows and movies with our Netflix clone website, offering a sleek, user-friendly interface, personalized recommendations, and high-quality video content anytime, anywhere.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
-            <ProjectCard>
               <ProjectImage src={ERCImage} alt="ERC721" />
               <ProjectContent>
                 <ProjectTitle>NFT Generator</ProjectTitle>
@@ -788,21 +787,6 @@ const Aboutc = () => {
               </ProjectContent>
             </ProjectCard>
 
-            <ProjectCard>
-              <ProjectImage src={DashImage} alt="Dashboard" />
-              <ProjectContent>
-                <ProjectTitle>Dynamic DashBoard Application</ProjectTitle>
-                <ProjectDescription>A dynamic dashboard using React.js, Redux, TypeScript, Redux Thunk, and Recharts, featuring user management, analytics with charts, API integration, responsive design, and interactive visualizations for insightful data representation.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
-
-            <ProjectCard>
-              <ProjectImage src={CalImage} alt="Calendar" />
-              <ProjectContent>
-                <ProjectTitle>Dynamic Calendar App</ProjectTitle>
-                <ProjectDescription>A dynamic event calendar built with Vite, Shadcn UI, and Day.js offering customizable scheduling, event management, reminder, etc, designed for intuitive user experience.</ProjectDescription>
-              </ProjectContent>
-            </ProjectCard>
             <ProjectCard>
               <ProjectImage src={LotImage} alt="Space Themed Website" />
               <ProjectContent>
