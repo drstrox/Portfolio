@@ -650,11 +650,11 @@ const Aboutc = () => {
 
           <TimelineItem position="left">
             <TimelineContent position="left">
-              <ExperienceTitle>Open Source Contributor</ExperienceTitle>
-              <ExperienceCompany>SWOC</ExperienceCompany>
-              <ExperienceDate>Jan. 2025 - Present</ExperienceDate>
+              <ExperienceTitle>Software Developer Intern</ExperienceTitle>
+              <ExperienceCompany>Raizzify</ExperienceCompany>
+              <ExperienceDate>Feb. 2025 - Present</ExperienceDate>
               <ExperienceDescription>
-                Contributing open source on Web3 and ML Projects.
+              Assists in coding, debugging, testing, and developing applications while learning industry practices and collaborating with teams. 
               </ExperienceDescription>
             </TimelineContent>
           </TimelineItem>
@@ -663,7 +663,7 @@ const Aboutc = () => {
             <TimelineContent position="right">
               <ExperienceTitle>Peptabase Project</ExperienceTitle>
               <ExperienceCompany>Under Prof. Amit Kumar, IIT Indore</ExperienceCompany>
-              <ExperienceDate>Nov. - Dec. 2024</ExperienceDate>
+              <ExperienceDate>Nov. - Jan. 2025</ExperienceDate>
               <ExperienceDescription>
                 Developed the Web platform for a database project working on vast collection of aptamers, categorized and
                 searchable by type, function, and application criteria for faster, more accurate research insights.
