@@ -1,9 +1,11 @@
+// Modified JSX remains the same as in the second code
 import React from 'react';
 import Profile from '../../assets/aayush.jpg';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaInstagram, FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 import './home.css';
 import Name from "../../components/Name.jsx";
+import Navber from "../../components/Navbar.jsx";
 import MatterBackground from './MatterBackground.jsx';
 
 const Home = () => {

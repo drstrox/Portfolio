@@ -1,31 +1,36 @@
-.flex{
+.flex {
     display: flex;
-    flex-direction: row; 
-    gap:50px;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-.webp{
-    width: 120px;
-    background-color: #563d3d;
-    border-radius: 15px;
-    padding: 20px;
-    
-    transition: transform 0.3s ease;
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
-.blockchain{
-    width: 120px;
-    background-color: #563d3d;
-    border-radius: 15px;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
-
-.finance{
+.webp, .blockchain, .finance {
     width: 120px;
     background-color: #563d3d;
     border-radius: 15px;
     padding: 20px;
     transition: transform 0.3s ease;
+    flex: 0 0 auto;
+}
 
+.webp:hover, .blockchain:hover, .finance:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 480px) {
+    .webp, .blockchain, .finance {
+        width: 100px;
+        padding: 15px;
+    }
 }
