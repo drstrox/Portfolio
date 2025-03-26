@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.17.0",
+    "gh-pages": "^6.3.0",
     "jquery": "^3.7.1",
     "lucide-react": "^0.471.0",
     "matter-js": "^0.20.0",
